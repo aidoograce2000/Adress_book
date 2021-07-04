@@ -1,0 +1,26 @@
+
+
+<div class="card text-white bg-secondary mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h3 class="card-title">myCARD</h3> <br/>
+         <p class="card-text lead"> <%= @friend.first_name %>  <%= @friend.last_name %> | <%= @friend.email %> | <%= @friend.tel_phone %> | <%= @friend.twitter%>
+        </p>
+        <br/> <br/>
+         <%= link_to 'Edit', edit_friend_path(@friend), class:"btn btn-sm btn-primary" %> 
+        <%= link_to 'Back', friends_path,  class:"btn btn-sm btn-light" %>
+
+             
+      </div> 
+    </div>
+  </div>
+</div>
+
+
+</p>
+
+ 
